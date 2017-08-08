@@ -1,0 +1,80 @@
+body{
+	background-color: black; 
+}
+ul{
+
+  background-color: #A52A2A !important;
+}
+li{
+	display: inline-block;
+	padding: 20px;
+	list-style: none;
+}
+a{
+	color: white;
+	text-transform: uppercase;
+	padding: 10px;
+}
+a:hover{
+	color: green;
+
+}
+span{
+	color: pink;
+	text-transform: uppercase;
+	margin: 0 100px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  margin: 0;
+  
+}
+.boxe{
+
+	display: inline-block;
+	color: white;/*color blanco*/
+	background-color: #A52A2A;
+	padding: 10px;/*relleno*/
+	margin: 10px;
+	text-transform: uppercase;/*transforma minuscula a mayuscula*/
+	font-weight: bolder;
+	width: 400px;/*pixeles es mas chico que porcentaje%*/
+	text-align: center; 
+	height: 30px;
+
+}
+td {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 50%;
+    color te
+}
+
+td.first {
+    border-right: 5px solid #4BB495;
+}
+p{
+	text-decoration-color: white;
+}
+.tex1{
+	color: white;
+}
+.tex2{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
