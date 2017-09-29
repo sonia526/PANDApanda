@@ -1,9 +1,13 @@
 body{
 	background-color: black; 
+	padding: 0;
+	margin:0;
+	font-family: 'Archivo Black', sans-serif;
 }
 ul{
 
   background-color: #A52A2A !important;
+  padding: 30px;
 }
 li{
 	display: inline-block;
@@ -24,25 +28,33 @@ span{
 	text-transform: uppercase;
 	margin: 0 100px;
 }
-img {
+.image{
+  top: 30px;
   width: 250px;
   height: 250px;
   margin: 0;
-  
+  padding: 10px; 
 }
-.boxe{
+.contenedor{
 
-	display: inline-block;
+	display: inline-flex;
 	color: white;/*color blanco*/
 	background-color: #A52A2A;
 	padding: 10px;/*relleno*/
 	margin: 10px;
 	text-transform: uppercase;/*transforma minuscula a mayuscula*/
 	font-weight: bolder;
-	width: 400px;/*pixeles es mas chico que porcentaje%*/
-	text-align: center; 
+	width: 350px;/*pixeles es mas chico que porcentaje%*/
+	
 	height: 30px;
+	text-decoration: none;
 
+
+}
+table{
+	margin-top: 20px;
+	width: 90%;
+	padding-bottom: 40px;
 }
 td {
     font-size: 15px;
@@ -50,25 +62,48 @@ td {
     padding: 0 20px;
     text-align: justify;
     vertical-align: top;
-    width: 50%;
-    color te
+    width: 30%;
+    
 }
 
 td.first {
     border-right: 5px solid #4BB495;
+
 }
 p{
 	text-decoration-color: white;
 }
-.tex1{
+.tex1, .tex2{
 	color: white;
 }
-.tex2{
-	color: white;
+footer{
+
+	background-color: #A52A2A;
+	padding: 10px;
+	text-align: center;
 }
 
-
-
+.cajapadre{
+	display: inline-flex;
+}
+.close{
+   position: absolute;  
+   margin-left: 20px;
+   margin-top: 20px;
+   color: black;
+   background: skyblue;
+   width: 15px;
+   text-align: center;
+   font-size: 15px;
+   border-radius: 10%;
+   line-height: 15px;
+   text-decoration: none;
+}
+.color-text{
+	color: white;
+	padding: 10px;
+	font-size: 30px;
+}
 
 
 
