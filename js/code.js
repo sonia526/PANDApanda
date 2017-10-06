@@ -6,3 +6,13 @@ $(document).ready(function(){
         $(this).hide();
     });
 });
+ 
+    $(".origen").click(function(){
+        $("#textORIGEN").toggle();
+    });
+    $(".extincion").click(function(){
+        $("#textoextincion").toggle();
+    });
+    $(".pandas").click(function(){
+        $(".cajapadre").slideDown();
+    });
