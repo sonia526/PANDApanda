@@ -1,86 +1,50 @@
-body{
-	background-color: black; 
+*{
+	
 	padding: 0;
 	margin:0;
 	font-family: 'Archivo Black', sans-serif;
 }
 ul{
 
-  background-color: #A52A2A !important;
+  background-color: #B9770E   !important;
   padding: 30px;
+  
 }
 li{
 	display: inline-block;
-	padding: 20px;
-	list-style: none;
+	padding: 10px;
+    list-style: none;
+	text-decoration: none;
 }
 a{
 	color: white;
 	text-transform: uppercase;
 	padding: 10px;
+	text-decoration: none;
 }
 a:hover{
 	color: green;
 
 }
 span{
-	color: pink;
+	color: white;
 	text-transform: uppercase;
 	margin: 0 100px;
+	font-size: 30px;
 }
 .image{
-  top: 30px;
+  top: 100px;
   width: 250px;
   height: 250px;
-  margin: 0;
+  margin-top: 40px;
   padding: 10px; 
+  border-radius: 30px;
 }
-.contenedor{
-
-	display: inline-flex;
-	color: white;/*color blanco*/
-	background-color: #A52A2A;
-	padding: 10px;/*relleno*/
-	margin: 10px;
-	text-transform: uppercase;/*transforma minuscula a mayuscula*/
-	font-weight: bolder;
-	width: 350px;/*pixeles es mas chico que porcentaje%*/
-	
-	height: 30px;
-	text-decoration: none;
-
-
-}
-table{
-	margin-top: 20px;
-	width: 90%;
-	padding-bottom: 40px;
-}
-td {
-    font-size: 15px;
-    line-height: 20px;
-    padding: 0 20px;
-    text-align: justify;
-    vertical-align: top;
-    width: 30%;
-    
-}
-
-td.first {
-    border-right: 5px solid #4BB495;
-
-}
-p{
-	text-decoration-color: white;
+.decoration{
+	text-decoration: none
 }
 .tex1, .tex2{
 	color: white;
-}
-footer{
-
-	background-color: #A52A2A;
-	padding: 10px;
-	text-align: center;
 }
 
 .cajapadre{
@@ -88,23 +52,93 @@ footer{
 }
 .close{
    position: absolute;  
-   margin-left: 20px;
-   margin-top: 20px;
+   margin-left: 30px;
+   margin-top: 65px;
    color: black;
-   background: skyblue;
+   background: #B9770E ;
    width: 15px;
    text-align: center;
    font-size: 15px;
-   border-radius: 10%;
+   border-radius: 20px;
    line-height: 15px;
    text-decoration: none;
 }
 .color-text{
 	color: white;
 	padding: 10px;
-	font-size: 30px;
+	font-size: 50px;
+	/*animacion*/
+}
+/********/
+#textORIGEN{
+    top: 30px;
+    border-radius: 30px;
+    background-color:#B9770E  ;
+    display: inline-block;
+    color: white;
+    font-size: 1.5vw;
+    margin: 20px;
+    width: 40%;
+    font-weight: bold;
+    padding: 30px;
+}
+#textoextincion{
+	border-radius: 30px;
+    background-color: #B9770E ;
+    background-size: 100%;
+    display: inline-block;
+    color:white;
+    font-size: 1.5vw;
+    margin: 30px;
+    width: 40%;
+    font-weight: bold;
+    padding: 30px;
+
+}
+#textos{
+    height: 60vh;
+}
+#cajadetexto{
+
+    display: inline-block;
+    background-color: transparent;
+    margin: 20px;
+    padding: 30px;
 }
 
+#boton{
+    margin-top: 40px;
+    background-color: #B9770E ;
+    margin-right: 25px; 
+    margin-left: 30px; 
+    height: 50px; 
+    width: 350px;
+    border: 1px  solid #B9770E ;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+div.cajapadre{
+    display: inline-flex;
+
+}
+
+footer{
+
+	background-color: #B9770E ;
+	padding: 30px;
+	text-align: center;
+	color: white;
+}
+/*.panda-logo2{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-left: 0px;
+  color: white;
+}
+*/
 
 
 
